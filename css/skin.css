@@ -23,7 +23,7 @@ ul li, ol li {
   width:1024px;
   height:254px;
   text-align:center;
-  background: #FFFFFF url('../images/design/background.jpg') no-repeat;
+  background: #000 url('../images/design/background.jpg') no-repeat;
   position:relative;
 }
 
