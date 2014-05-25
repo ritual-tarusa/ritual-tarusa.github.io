@@ -7,6 +7,8 @@
     <meta name="description" content=""/>
     <meta name="author" content="Ars P. Shilovsky"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="jquery.darkbox.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="jquery.darkbox.ie.css"><![endif]-->
     <title>Ритуал Таруса</title>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -49,6 +51,7 @@
 					<p>ХРАНЕНИЕ БЕСПЛАТНО!</p>
 					<h2>Контакты</h2>
 					<p>Адрес: 249100, Калужская обл., г. Таруса, ул. Октябрьская, д.6А</p>
+					<a href="http://maps.yandex.ru/org/1196658422/">Схема проезда</a>
 					<p>Тел.: +7(48435) 2-58-21, +7 910-519-70-34.</p>
 					<p>e-mail: <a href="mailto:ooozavet@yandex.ru">ooozavet@yandex.ru</a></p>
                 </div>
@@ -68,6 +71,12 @@
 					<li>препятствование скоплению воды и грязи</li>
 					<li>недопущение зарастания травой</li>
 					</ul>
+				
+				<a href="images/blg1.jpg" rel="darkbox"><img class="col_33" src="images/blg1.thumb.jpg" alt=""></a>
+                <a href="images/blg2.jpg" rel="darkbox"><img class="col_33" src="images/blg2.thumb.jpg" alt=""></a>
+                <a href="images/blg3.jpg" rel="darkbox"><img class="col_33" src="images/blg3.thumb.jpg" alt=""></a>
+                <div class="clearfix"></div>
+                
                 </div>
             	</article>
 		</div>
@@ -81,6 +90,12 @@
 
 
 </div>
+
+	<script src="j/jquery.js"></script>
+	<script src="jquery.darkbox.min.js"></script>
+	<script>
+		$( 'a[rel=darkbox]' ).darkbox();
+	</script>
 
 </body>
 </html>

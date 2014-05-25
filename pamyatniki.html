@@ -7,6 +7,8 @@
     <meta name="description" content=""/>
     <meta name="author" content="Ars P. Shilovsky"/>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="jquery.darkbox.css">
+	<!--[if lt IE 9]><link rel="stylesheet" href="jquery.darkbox.ie.css"><![endif]-->
     <title>Ритуал Таруса</title>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -49,6 +51,7 @@
 					<p>ХРАНЕНИЕ БЕСПЛАТНО!</p>
 					<h2>Контакты</h2>
 					<p>Адрес: 249100, Калужская обл., г. Таруса, ул. Октябрьская, д.6А</p>
+					<a href="http://maps.yandex.ru/org/1196658422/">Схема проезда</a>
 					<p>Тел.: +7(48435) 2-58-21, +7 910-519-70-34.</p>
 					<p>e-mail: <a href="mailto:ooozavet@yandex.ru">ooozavet@yandex.ru</a></p>
                 </div>
@@ -62,6 +65,16 @@
 					<p>Основным видом деятельности нашей мастерской является изготовление памятников и надгробий из натурального камня.</p>
 					<p>Большой опыт работы позволяет быстро и качественно, а главное, недорого изготовить изделия, как по нашим образцам, так и по эскизам заказчика.</p>
 					<p>Цена гранитных плит начинается от 1000 рублей.</p>
+                
+                <a href="images/pam1.jpg" rel="darkbox"><img class="col_33" src="images/pam1.thumb.jpg" alt=""></a>
+                <a href="images/pam2.jpg" rel="darkbox"><img class="col_33" src="images/pam2.thumb.jpg" alt=""></a>
+                <a href="images/pam3.jpg" rel="darkbox"><img class="col_33" src="images/pam3.thumb.jpg" alt=""></a>
+                <div class="clearfix"></div>
+                <a href="images/pam4.jpg" rel="darkbox"><img class="col_33" src="images/pam4.thumb.jpg" alt=""></a>
+                <a href="images/pam5.jpg" rel="darkbox"><img class="col_33" src="images/pam5.thumb.jpg" alt=""></a>
+                <a href="images/pam6.jpg" rel="darkbox"><img class="col_33" src="images/pam6.thumb.jpg" alt=""></a>
+                <div class="clearfix"></div>
+                
                 </div>
             	</article>
 		</div>
@@ -75,6 +88,12 @@
 
 
 </div>
+
+	<script src="j/jquery.js"></script>
+	<script src="jquery.darkbox.min.js"></script>
+	<script>
+		$( 'a[rel=darkbox]' ).darkbox();
+	</script>
 
 </body>
 </html>
